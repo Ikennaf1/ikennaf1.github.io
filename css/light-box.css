@@ -103,7 +103,7 @@ div .content {
     display: inline-block;
     position: relative;
     height: 110%;
-    background-image: url("https://raw.githubusercontent.com/Ikennaf1/ikennaf1.github.io/dev/img/B_DON4095.jpg");
+    background-image: url("../img/B_DON4095.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,7 +193,8 @@ h1.name-text a {
     display: block;
     position: fixed;
     left: 50%;
-    width: 20vw;
+    /*width: 20vw;*/
+    width: 40vw;
     transform: translate(-50%, 0);
     top: 3rem;
     z-index: 99999;
@@ -202,6 +203,8 @@ h1.name-text a {
     border-radius: 0px;
     padding: 2rem;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.7);
+    height: 85vh;/*remove these later*/
+    overflow: auto;
 }
 
 .form-attr {
@@ -218,6 +221,24 @@ h1.name-text a {
 
 input:focus, textarea:focus {
     outline: none !important;
+}
+
+/*.contact_details {
+    overflow: auto;
+}*/
+
+.contact_item {
+    display: inline-block;
+    margin: 1rem;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 2rem;
+    color: #40bf8a;
+}
+
+.contact_item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #small {
@@ -300,6 +321,8 @@ input:focus, textarea:focus {
 
     .contact {
         width: 80vw;
+        height: 80vh;/*remove this later*/
+        overflow: auto;
     }
 }
 
