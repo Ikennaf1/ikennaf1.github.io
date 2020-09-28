@@ -4,7 +4,7 @@ var content_1 = '\
 <div id="name_text"><h1 class="name-text"><a href="">Ike Felix</a></h1></div>\
 <h3 class="text-title">September 2020</h3>\
     <p class="p-highlight">Blinds Beta now available in <a href="https://wordpress.org/" target="_blank">WordPress.org</a> plugin repository</p>\
-    <p class="p-text">Current version at this time: Beta version 0.0.5. <br>Blinds is a simple WordPress plugin that gives WordPress users the option to activate Night / Dark mode on\
+    <p class="p-text">Current version at this time: Beta version 0.0.7. <br>Blinds is a simple WordPress plugin that gives WordPress users the option to activate Night / Dark mode on\
     WordPress blogs or websites.</p>\
     <p class="p-text"><a href="https://wordpress.org/plugins/blinds" target="_blank">Get the plugin from WordPress</a><br>\
     <p class="p-highlight">Launched Blinds Beta</p>\
